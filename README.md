@@ -99,6 +99,7 @@ function encodetext(text)
 				repeat
 				
 				prevkey = keyb 				
+				prevc = c
 				crc ^= 0xF * 0x11111111
 				
 				while !((!prevc.a and c.a) or ((prevkey == "") and (keyb != "")))  loop
@@ -119,6 +120,7 @@ function encodetext(text)
 	repeat
 	crc ^= 0xF * 0x11111111
 	prevkey = keyb
+	prevc = c
 return void
 
 var c = controls(0)
