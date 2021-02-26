@@ -3,7 +3,7 @@ This tool will decode pictures where each character as been encoded in the pixel
 It decodes pictures where each characters data is represented with 8 pixels, one pixel per bit to form a byte / character.
 White pixels equals bit 1 and black pixels equals 0. It then checks for R < 128, G < 128, B < 128 to decode the pixels back.
 
-![Example image](preview.ng "Example Image")
+![Example image](preview.png "Example Image")
 
 ## needed code on fuze 4 nintendo switch 
 
