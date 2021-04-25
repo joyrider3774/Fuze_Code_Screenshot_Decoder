@@ -5,6 +5,8 @@ White pixels equals bit 1 and black pixels equals 0. It then checks for R < 128,
 
 ![Example image](preview.png "Example Image")
 
+[Latest Release](https://github.com/joyrider3774/Fuze_Code_Screenshot_Decoder/releases/latest)
+
 ## needed code on fuze 4 nintendo switch 
 
 The code below is needed to encode the pictures and you need to take a screenshot of the screen. 
